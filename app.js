@@ -11,7 +11,7 @@ responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rete:1.2});
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1','Jogo do número secreto');
+    exibirTextoNaTela('h1','adivinha');
     exibirTextoNaTela('p',`Escolha um número entre 1 e ${quantidadeDeNumeros}`);
 }
 exibirMensagemInicial();
